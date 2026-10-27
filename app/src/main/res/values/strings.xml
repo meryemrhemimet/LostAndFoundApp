@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Objets Perdus</string>
+    <string name="app_description">Déclarez vos objets perdus ou trouvés et aidez votre communauté</string>
+    <string name="welcome">Bienvenue</string>
+    <string name="login">Connexion</string>
+    <string name="signup">Inscription</string>
+    <string name="login_title">Se connecter</string>
+    <string name="register_title">Créer un compte</string>
+    <string name="email">Adresse e-mail</string>
+    <string name="password">Mot de passe</string>
+    <string name="username">Nom d\'utilisateur</string>
+    <string name="phone">Téléphone</string>
+    <string name="btn_login">Se connecter</string>
+    <string name="btn_register">S\'inscrire</string>
+    <string name="logout">Déconnexion</string>
+    <string name="confirm_logout">Voulez-vous vous déconnecter ?</string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+    <string name="cancel">Annuler</string>
+    <string name="error_empty_fields">Veuillez remplir tous les champs</string>
+    <string name="error_invalid_email">Adresse e-mail invalide</string>
+    <string name="error_short_password">Le mot de passe doit faire au moins 6 caractères</string>
+    <string name="error_login">E-mail ou mot de passe incorrect</string>
+    <string name="error_email_exists">Cet e-mail est déjà utilisé</string>
+    <string name="success_register">Inscription réussie !</string>
+    <string name="success_login">Connexion réussie !</string>
+
+    <!-- Navigation -->
+    <string name="nav_items">Explorer</string>
+    <string name="nav_add">Déclarer</string>
+    <string name="nav_map">Carte</string>
+    <string name="nav_my_ads">Mes objets</string>
+    <string name="nav_profile">Profil</string>
+
+    <!-- Toolbar -->
+    <string name="toolbar_items">Explorer</string>
+    <string name="toolbar_detail">Détail</string>
+    <string name="toolbar_create">Nouvelle déclaration</string>
+    <string name="toolbar_my_ads">Mes objets</string>
+    <string name="toolbar_profile">Mon profil</string>
+    <string name="toolbar_map">Carte des objets</string>
+
+    <!-- Form -->
+    <string name="hint_title">Titre de l\'objet</string>
+    <string name="hint_description">Description détaillée</string>
+    <string name="hint_address">Adresse / lieu</string>
+    <string name="hint_search">Rechercher…</string>
+    <string name="hint_phone">Numéro de téléphone</string>
+    <string name="selected_address">Adresse sélectionnée</string>
+    <string name="type_lost">J\'ai perdu</string>
+    <string name="type_found">J\'ai trouvé</string>
+    <string name="btn_post">Publier</string>
+    <string name="btn_gallery">Galerie</string>
+    <string name="btn_camera">Photo</string>
+    <string name="category">Catégorie</string>
+    <string name="select_category">Choisir une catégorie</string>
+
+    <!-- Categories -->
+    <string name="cat_all">Tout</string>
+    <string name="cat_electronics">Électronique</string>
+    <string name="cat_keys">Clés</string>
+    <string name="cat_documents">Documents</string>
+    <string name="cat_clothing">Vêtements</string>
+    <string name="cat_bags">Sacs</string>
+    <string name="cat_jewelry">Bijoux</string>
+    <string name="cat_pets">Animaux</string>
+    <string name="cat_other">Autre</string>
+
+    <!-- Detail -->
+    <string name="label_description">Description</string>
+    <string name="label_address">Localisation</string>
+    <string name="label_posted_by">Publié par</string>
+    <string name="label_category">Catégorie</string>
+    <string name="label_date">Date</string>
+    <string name="btn_call">Appeler</string>
+    <string name="btn_sms">SMS</string>
+    <string name="btn_share">Partager</string>
+    <string name="btn_map">Carte</string>
+    <string name="sms_body">Bonjour, je vous contacte au sujet de « %s » sur Objets Perdus.</string>
+    <string name="share_text">%1$s : %2$s — %3$s. Vu sur Objets Perdus.</string>
+    <string name="no_phone">Aucun numéro disponible</string>
+    <string name="lost">Perdu</string>
+    <string name="found">Trouvé</string>
+    <string name="status_active">En cours</string>
+    <string name="status_resolved">Résolu</string>
+    <string name="mark_resolved">Marquer résolu</string>
+    <string name="delete">Supprimer</string>
+    <string name="confirm_delete">Supprimer cette annonce ?</string>
+    <string name="confirm_resolve">Marquer comme résolu ?</string>
+    <string name="btn_delete">Supprimer</string>
+    <string name="btn_resolve">Résolu</string>
+
+    <!-- Profile -->
+    <string name="profile_title">Mon profil</string>
+    <string name="label_email">E-mail :</string>
+    <string name="label_username">Utilisateur :</string>
+    <string name="label_phone_profile">Téléphone :</string>
+    <string name="label_active_ads">Annonces actives :</string>
+    <string name="label_resolved_ads">Résolues :</string>
+    <string name="profile_my_posts">Mes annonces</string>
+    <string name="profile_settings">Paramètres</string>
+    <string name="profile_about">À propos</string>
+    <string name="profile_version">Version 1.0</string>
+    <string name="profile_total">Total</string>
+    <string name="profile_lost_count">Perdus</string>
+    <string name="profile_found_count">Trouvés</string>
+    <string name="profile_notifications">Notifications</string>
+    <string name="profile_no_notif">Aucune notification</string>
+    <string name="profile_clear_notif">Tout effacer</string>
+
+    <!-- Notifications -->
+    <string name="notif_enabled">Notifications</string>
+    <string name="notif_channel_name">Alertes objets</string>
+    <string name="notif_channel_desc">Alertes objets correspondants</string>
+    <string name="notif_match_title">Correspondance trouvée !</string>
+    <string name="notif_match_body">Nouvel objet « %s » correspond à votre recherche.</string>
+    <string name="notif_welcome_title">Bienvenue !</string>
+    <string name="notif_welcome_body">Content de vous revoir, %s</string>
+    <string name="notif_post_title">Annonce publiée</string>
+    <string name="notif_post_body">Votre annonce « %s » est visible</string>
+    <string name="notif_resolved_title">Objet résolu</string>
+    <string name="notif_resolved_body">« %s » marqué comme résolu</string>
+    <string name="notif_deleted_title">Annonce supprimée</string>
+    <string name="notif_deleted_body">« %s » a été supprimée</string>
+
+    <!-- Map -->
+    <string name="map_all_items">Tous les objets</string>
+    <string name="map_lost_only">Perdus seulement</string>
+    <string name="map_found_only">Trouvés seulement</string>
+    <string name="map_error">Carte indisponible</string>
+
+    <!-- Widget -->
+    <string name="widget_name">Widget Objets Perdus</string>
+    <string name="widget_label">objets récents</string>
+    <string name="widget_tap">Appuyez pour ouvrir</string>
+
+    <!-- Empty states -->
+    <string name="empty_items">Aucun objet</string>
+    <string name="empty_my_ads">Aucune déclaration</string>
+    <string name="empty_history">Aucun historique</string>
+    <string name="loading">Chargement…</string>
+    <string name="success_post">Annonce publiée !</string>
+    <string name="error_post">Erreur de publication</string>
+    <string name="success_delete">Annonce supprimée</string>
+    <string name="item_photo">Photo</string>
+    <string name="search_icon">Recherche</string>
+    <string name="error">Erreur</string>
+    <string name="perm_camera">Permission caméra requise</string>
+    <string name="perm_call">Permission téléphone requise</string>
+    <string name="perm_location">Permission localisation requise</string>
+    <string name="app_logo">Logo</string>
+    <string name="dark_mode">Mode sombre</string>
+</resources>

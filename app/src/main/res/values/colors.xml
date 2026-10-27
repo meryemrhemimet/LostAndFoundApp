@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#1E88E5</color>
+    <color name="colorPrimaryDark">#1565C0</color>
+    <color name="colorPrimaryLight">#BBDEFB</color>
+    <color name="colorAccent">#42A5F5</color>
+    <color name="colorSurface">#FFFFFF</color>
+    <color name="backgroundColor">#F5F7FA</color>
+    <color name="cardBackground">#FFFFFF</color>
+    <color name="textPrimary">#1B2A4A</color>
+    <color name="textSecondary">#607D8B</color>
+    <color name="dividerColor">#E0E6ED</color>
+    <color name="iconTint">#607D8B</color>
+    <color name="lostColor">#E53935</color>
+    <color name="foundColor">#43A047</color>
+    <color name="resolvedColor">#90A4AE</color>
+    <color name="chipSelected">#1E88E5</color>
+    <color name="chipUnselected">#E0E6ED</color>
+    <color name="avatarBg">#BBDEFB</color>
+    <color name="profileMenuIcon">#1E88E5</color>
+    <color name="dangerColor">#E53935</color>
+    <color name="successColor">#43A047</color>
+    <color name="warningColor">#FB8C00</color>
+    <color name="badgeColor">#E53935</color>
+    <color name="toolbarBg">#1565C0</color>
+    <color name="navBg">#FFFFFF</color>
+    <color name="navActive">#1E88E5</color>
+    <color name="navInactive">#90A4AE</color>
+    <color name="notifBg">#E3F2FD</color>
+</resources>

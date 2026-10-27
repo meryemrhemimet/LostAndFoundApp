@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical"
+    android:background="@color/backgroundColor">
+    <!-- Search -->
+    <com.google.android.material.card.MaterialCardView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_margin="12dp" app:cardCornerRadius="14dp" app:cardElevation="0dp" app:strokeWidth="1dp" app:strokeColor="@color/dividerColor">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:padding="4dp" android:paddingStart="12dp">
+            <ImageView android:layout_width="22dp" android:layout_height="22dp" android:layout_gravity="center_vertical"
+                android:src="@drawable/baseline_search_24" android:contentDescription="@string/search_icon"/>
+            <EditText android:id="@+id/etSearch" android:layout_width="match_parent" android:layout_height="44dp"
+                android:layout_marginStart="8dp" android:background="@null" android:hint="@string/hint_search"
+                android:inputType="text" android:textSize="14sp"/>
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+    <!-- Status chips -->
+    <HorizontalScrollView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:scrollbars="none" android:layout_marginStart="12dp" android:layout_marginBottom="4dp">
+        <com.google.android.material.chip.ChipGroup android:id="@+id/chipGroupStatus" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            app:singleSelection="true" app:selectionRequired="true"/>
+    </HorizontalScrollView>
+    <!-- List -->
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/rvMyAds" android:layout_width="match_parent" android:layout_height="match_parent"
+            android:clipToPadding="false" android:paddingBottom="8dp"/>
+        <TextView android:id="@+id/tvEmptyMyAds" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="@string/empty_my_ads" android:textSize="15sp" android:textColor="@color/textSecondary"
+            android:gravity="center" android:layout_gravity="center" android:visibility="gone"/>
+    </FrameLayout>
+</LinearLayout>
